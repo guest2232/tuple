@@ -1,0 +1,6 @@
+t1=('ab', 54, 6.5, True )
+t2=(5, 4, 6, 4, 5, 1)
+a=int(input('enter a integer: '))
+print('there are' , t2.count(a) , a)
+print('slicing', t2[1:3])
+print('total integers', t2[::-1])
